@@ -16,5 +16,7 @@ Deux facons de demarrer le programme au lancement du container :
 
  
 Lorsque le container sera lancé dans docker on le parametre sera récupéré dans $1,
+
 exemple :
+
   docker run -it test_docker toto
