@@ -9,7 +9,7 @@ Deux facons de demarrer le programme au lancement du container :
  Ici on a choisit de lancer un script shell dans l'entrypoint (le script est ajouté dasn l'image : attention : dos2unix si edition sous windows)
  
 - run.sh :
-#!/bin/sh
-java -jar /app.jar $1
+  #!/bin/sh
+  java -jar /app.jar $1
 
  
